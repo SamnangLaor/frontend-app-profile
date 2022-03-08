@@ -114,11 +114,11 @@ module.exports = {
         grade: '0.89',
         courseId: 'course-v1:edX+DemoX+Demo_Course',
         courseOrganization: 'edX',
-        modifiedDate: '2019-03-04T19:31:39.930255Z',
+        modifiedDate: '2019-03-05T19:31:39.930255Z',
         isPassing: true,
         downloadUrl: 'http://www.example.com/',
         certificateType: 'verified',
-        createdDate: '2019-03-04T19:31:39.896806Z'
+        createdDate: '2019-03-05T19:31:39.896806Z'
       }
     ],
     drafts: {},
