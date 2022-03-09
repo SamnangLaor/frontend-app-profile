@@ -98,7 +98,7 @@ class Certificates extends React.Component {
                 id="profile.certificate.completion.date.label"
                 defaultMessage="Completed on {date}"
                 values={{
-                  date: <FormattedDate value={new Date(modifiedDate)} />,
+                  date: <FormattedDate value={(new Date(modifiedDate)).toUTCString()} timeZone='utc' />,
                 }}
               />
             </p>
