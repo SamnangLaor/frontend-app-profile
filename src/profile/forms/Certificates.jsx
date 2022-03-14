@@ -100,7 +100,7 @@ class Certificates extends React.Component {
                 values={{
                   date: (
                     <FormattedDate
-                      value={new Date(modifiedDate).toUTCString()}
+                      value={new Date(modifiedDate)}
                       timeZone="utc"
                     />
                   ),
